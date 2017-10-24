@@ -1,1 +1,32 @@
-ECHO is on.
+body {
+    outline: 1px solid orange;
+    font-family: monospace;
+}
+
+div {
+    outline: 1px solid blue;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    margin: 5px;    
+}
+
+img {
+    outline: 1px solid red;
+    width: 250px;
+    height: 250px;
+}
+
+div p {
+    text-align: right;    
+    outline: 1px solid green;    
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom: 50px;
+    padding:5px;    
+    margin: 9px;
+    opacity: 0.5;
+    background-color: #000;    
+}
