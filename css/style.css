@@ -1,10 +1,22 @@
 body {
-    outline: 1px solid orange;
+    /*outline: 1px solid orange;*/
     font-family: monospace;
 }
 
+h1{
+    /*outline: 1px solid yellow;*/
+    margin-bottom: 0px;    
+}
+
+hr {
+    height: 5px;
+    margin-right: 94%;
+    background-color: black;
+    
+}
+
 div {
-    outline: 1px solid blue;
+    /*outline: 1px solid blue;*/
     display: inline-block;
     width: 250px;
     height: 250px;
@@ -12,21 +24,23 @@ div {
     margin: 5px;    
 }
 
+
 img {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
     width: 250px;
     height: 250px;
 }
 
-div p {
+p {
     text-align: right;    
-    outline: 1px solid green;    
+    /*outline: 1px solid green;*/
     color: white;
     font-weight: bold;
-    position: relative;
+    position: relative; /*Aplicamos relative para poder colocar la letra encima de la imagen*/
     bottom: 50px;
     padding:5px;    
     margin: 9px;
-    opacity: 0.5;
+    opacity: 0.5; /*Agregamos opacidad a la letra*/
     background-color: #000;    
 }
+
